@@ -85,11 +85,6 @@ namespace Bai3
                 }
             }
         }
-        
-        public void ThoatChuongTrinh()
-        {
-            Environment.Exit(0);
-        }
     }
     public class Bai3
     {
@@ -105,10 +100,9 @@ namespace Bai3
             tuyenSinh.ThemThiSinh(thiSinhThiKhoiB);
             tuyenSinh.ThemThiSinh(thiSinhThiKhoiC);
             tuyenSinh.HienThiThongTinThiSinhVaKhoiThi();
+            Console.WriteLine("-------------------------");
             Console.WriteLine("Nhap so bao danh can tim kiem: ");
             tuyenSinh.TimKiemTheoSoBaoDanh("002");
-            tuyenSinh.ThoatChuongTrinh();
-
         }
     }
 }

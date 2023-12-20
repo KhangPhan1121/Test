@@ -69,7 +69,7 @@ namespace Bai8
     {
         public static void Main()
         {
-          git  QuanLySinhVien quanLySinhVien = new QuanLySinhVien();
+            QuanLySinhVien quanLySinhVien = new QuanLySinhVien();
             quanLySinhVien.ThemSinhVien(new TheMuon("Nguyen Van A", 20, 1, "PM001", DateTime.Now, DateTime.Now.AddDays(7), "S001"));
             quanLySinhVien.ThemSinhVien(new TheMuon("Nguyen Van B", 21, 2, "PM002", DateTime.Now, DateTime.Now.AddDays(7), "S002"));
             quanLySinhVien.ThemSinhVien(new TheMuon("Nguyen Van C", 22, 3, "PM003", DateTime.Now, DateTime.Now.AddDays(7), "S003"));
